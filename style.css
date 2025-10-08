@@ -40,10 +40,11 @@ a {
     display: flex;
     padding: 50px;
     background-color: #1f2937;
-    height: 300px;
+    height: auto;
     align-items: center;
     justify-content: center;
     gap: 70px;
+    flex: auto;
 }
 
 .tittle {
@@ -75,4 +76,45 @@ a {
     height: 34px;
     font-size: 16px;
 
+}
+
+.columms {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.sub-tittle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 4px solid #3882f2;
+    border-radius: 15px;
+    padding: 85px;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #1f2937;
+    font-size: 18px;
 }
