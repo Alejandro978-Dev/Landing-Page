@@ -142,3 +142,54 @@ p {
     font-weight: bold;
     font-size: 24px;
 }
+
+.call {
+    padding: 100px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    background: #3882f2;
+    padding: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 5px;
+    gap: 180px;
+}
+
+#button-2 {
+    background-color: #3882f2;
+    border: white solid 2px;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    font-weight:700;
+    width: 120px;
+    height: 34px;
+    font-size: 16px;
+    align-self: center;
+}
+
+.text2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.text3 {
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+.end{
+    color: white;
+    text-align: center;
+}
